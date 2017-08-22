@@ -1,0 +1,97 @@
+
+  <!-- it need to be connected through HTTP not HTTPS -->
+<html lang="en">
+  
+<head>
+  <meta charset="UTF-8">
+  <title>Random Quotes by ichi</title>
+  <!-- link to Spirax font-->
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Spirax" /> 
+  <!-- link to font awesome -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <!-- link to bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- Ajax JQuery library -->
+  
+  <style>
+  
+  body {
+      text-align : center;
+      background-image: url(https://res.cloudinary.com/lamuchy/image/upload/v1493649512/chair-2178878_1920_rcpzlm.jpg);
+  }
+  
+  h2 {
+    margin: 80px 0 30px;
+    font-size: 30px;
+    font-family: Spirax;
+	  font-style: normal;
+	  font-variant: normal;
+	  font-weight: 500;
+	  line-height: 26.4px;
+    Color: white;
+  }
+  .quote-container{
+    background-color: white;
+    margin:10px 150px;
+    padding: 80px 50px 100px 50px;
+    border-radius: 9px;
+   }
+   
+  #quote-title{
+    text-align: left;
+  }
+  
+  p.indent{
+    padding: 3em 
+  }
+  
+  #quote-button {
+    padding: 10px 20px; 
+    font-family: "Arial", sans-serif;
+    color: white;
+    background-color: #20B2AA;
+    border-radius: 7px;  
+  }
+  
+  #twitter{
+    color : black;
+    margin: 20px 0 50px 0;;
+  }
+  </style>
+</head>
+
+<body>   
+  <h2><b>Magic Quote Machine</b></h2>    
+    <div class = "quote-container">
+      <p id = "quote-title">
+        <i class = "fa fa-quote-left" style="font-size:36px; color:red;"> </i>
+      </p>
+    
+      <p id = "quote-itself">
+      click "Quote Me"
+      </p>
+     
+      <p id = "quote-author"> 
+      </p>
+    </div>
+  
+    <div>
+      <p class="indent"></p>
+    </div>
+
+    <div id = "button-container">
+      <a href = "#" id = "quote-button">Quote Me</a> 
+    </div>
+    <div id = "twitter">
+      <a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter" ></i> Twitter </a> 
+    </div>
+  <footer>
+       <p style="color:gray"> created by: Ichi LaMuchy </p>
+  </footer>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js'></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="js/index.js"></script>
+
+</body>
+</html>
